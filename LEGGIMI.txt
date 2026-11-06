@@ -1,0 +1,8 @@
+Come ottenere l'APK solo dal telefono
+
+1. Estrai lo zip (app File -> tocca lo zip -> Estrai).
+2. Su github.com (browser, meglio "Sito desktop") crea un repository.
+3. "Add file" -> "Upload files": seleziona TUTTI i file estratti tranne build-apk.yml. Poi "Commit changes".
+4. "Add file" -> "Create new file": come nome scrivi  .github/workflows/build-apk.yml
+   incolla il contenuto di build-apk.yml e premi "Commit changes".
+5. Scheda Actions: attendi 5-10 minuti, apri l'esecuzione e scarica "conquista-del-mondo-apk".
